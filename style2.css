@@ -1,0 +1,86 @@
+/* SECCION 2 */
+.hero{
+    width: 90%;
+    min-height: 65vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #dff4ff;
+    margin: auto;
+}
+.hero-subtitle{
+    color: #96bb7c;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 50px ;
+}
+
+.hero-text h1{
+    font-size: 60px;
+    color: #252b42;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.hero-description{
+    font-size: 18px;
+    color: #737373;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    margin-left: 50px;
+}
+.hero-buttons{
+    display: flex;
+    gap: 15px;
+    margin-left: 50px;
+}
+.quote-btn{
+    background-color: #96bb7c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 14px 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.learn-btn{
+    background: transparent;
+    color: #96bb7c;
+
+    border: 1px solid #96bb7c;
+    border-radius: 5px;
+
+    padding: 14px 28px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+.hero-image{
+    width: 50%;
+    border: #dff4ff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    width: 350px;
+    height: 350px;
+    background-color: #ff5a5f;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+
+.hero-image img{
+    width: 420px;
+    position: relative;
+   
+}
