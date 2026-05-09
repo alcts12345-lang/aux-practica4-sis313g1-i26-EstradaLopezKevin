@@ -1,0 +1,29 @@
+
+/* SECCION 3 */
+.stats{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    padding: 30px 30px;
+    background-color: #ffffff;
+}
+
+.stat-box{
+    text-align: center;
+}
+
+.stat-box h2{
+    color: #96bb7c;
+
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.stat-box p{
+    color: #252b42;
+    font-size: 20px 30px;
+    font-weight: 700;
+}
