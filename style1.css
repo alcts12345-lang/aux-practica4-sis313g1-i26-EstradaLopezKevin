@@ -1,0 +1,62 @@
+
+/* SECCION 1  */
+
+.section-one{
+    width: 90%;
+
+    margin: 30px auto 0 auto;
+
+    background-color: #dff4ff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo h2{
+    color: #252b42;
+    margin-left: 80%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links{
+    display: flex;
+    gap: 25px;
+    margin-left: -20%;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #737373;
+    font-size: 14px;
+    font-weight: 600;
+}
+.nav-buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.login{
+    text-decoration: none;
+    color: #96bb7c;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: -80%;
+}
+
+.join-btn{
+    background-color: #96bb7c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 18px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
